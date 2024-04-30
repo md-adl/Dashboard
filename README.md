@@ -23,6 +23,10 @@ This document outlines the steps taken to refactor the project code to its final
 
 6 Removed consumerReviews cardsData , restaurantsData ,sellersData, transactionHistoryData, adminDishListData from assets/other.js which is Unnessary for Dashboard and Removed all unnessary Icons
 
+7 I increased the Performance and checked using Chrome developer tool LightHouse : Performance = 91% , Accessibility = 84% , Best Practices = 96% SEO = 82%
+
+Link for LightHouse Result : https://drive.google.com/file/d/1ucQc-JxhcYZ6mC2eY5VJncnwv3w5I7Z_/view?usp=sharing
+
 ## Step 3: Refactoring Process
 
 1. Started with `App.js`.
