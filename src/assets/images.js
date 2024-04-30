@@ -38,16 +38,7 @@ import seafoodIconCategoryImg from "./images/icons/category/seafood.svg";
 import skewerIconCategoryImg from "./images/icons/category/skewer.svg";
 import tacoIconCategoryImg from "./images/icons/category/taco.svg";
 
-// restaurant
-import restaurant1Img from "./images/restaurants/1.png";
-import restaurant2Img from "./images/restaurants/2.png";
-import restaurant3Img from "./images/restaurants/3.png";
-import restaurant4Img from "./images/restaurants/4.png";
-import restaurant5Img from "./images/restaurants/5.png";
-import restaurant6Img from "./images/restaurants/6.png";
-import restaurant7Img from "./images/restaurants/7.png";
-import restaurant8Img from "./images/restaurants/8.png";
-import restaurantBgImg from "./images/restaurants/bg.png";
+
 
 // payment
 import visaPaymentImg from "../assets/images/payment/visa.svg";
@@ -149,15 +140,6 @@ export {
   logoDarkImg,
   offerBgOtherImg,
   logoLightImg,
-  restaurant1Img,
-  restaurant2Img,
-  restaurant3Img,
-  restaurant4Img,
-  restaurant5Img,
-  restaurant6Img,
-  restaurant7Img,
-  restaurant8Img,
-  restaurantBgImg,
   appetizerBanner1Img,
   appetizerBanner2Img,
   appetizerBanner3Img,

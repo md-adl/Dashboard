@@ -11,15 +11,19 @@ This document outlines the steps taken to refactor the project code to its final
 
 ## Step 2: Reverse Engineering Approach
 
-Utilized a bottom-up reverse engineering technique to import only necessary components, functions, data, images, helpers, styles, and dependencies.
+1 Utilized a bottom-up reverse engineering technique to import only necessary components, functions, data, images, helpers, styles, and dependencies.
+2 I removed all unnecessary images from helpers and image.js 
+3 Removed restaurantsData ,sellersData and orderProgressData from asset/data.js which is unnecesary for Dashboard  and all related Icon
+4 Removed getFilteredProducts , getAllRestaurants, getRestaurantById, getSellerById, getOrderHistoryById function  and all unnessary import from helpers/data.js which in unnessary function for dasboard
+5 Removed specialMenuData and all unnessary icon for dashboard from assets/dishes.js
 
-I removed all unnecessary images from helpers and image.js 
+6 Removed consumerReviews cardsData , restaurantsData ,sellersData, transactionHistoryData, adminDishListData from assets/other.js which is Unnessary for Dashboard and Removed all unnessary Icons
 
 ## Step 3: Refactoring Process
 
 1. Started with `App.js`.
    - Identified the main page structure in `App.js`.
-   - Example: Found main page structure in `App.js` under `AllRoutes -> allAdminFlattedRoutes -> adminRoutes -> AdminOrders`.
+   - Example: Found main page structure in `App.js` under `AllRoutes -> allAdminFlattedRoutes -> adminRoutes -> Dashboard`.
 2. Imported only necessary components from `App.js`.
    - Imported subsequent nested components within `App.js`.
 3. Utilized browser debugger.
