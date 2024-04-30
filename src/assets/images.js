@@ -1,10 +1,9 @@
 // flags
-import frenchImg from "./images/flags/french.jpg";
+
 import germanyImg from "./images/flags/germany.jpg";
 import italyImg from "./images/flags/italy.jpg";
 import russiaImg from "./images/flags/russia.jpg";
 import spainImg from "./images/flags/spain.jpg";
-import usaImg from "./images/flags/usa.jpg";
 import burgerImg from "./images/dishes/burger.png";
 
 // dishes
@@ -102,12 +101,10 @@ import logoLightImg from "./images/logo-light.png";
 import offerBgOtherImg from "./images/offer-bg.png";
 
 export {
-  frenchImg,
   germanyImg,
   italyImg,
   russiaImg,
   spainImg,
-  usaImg,
   burritoBowl2Img,
   burritoBowl3Img,
   burritoBowlImg,

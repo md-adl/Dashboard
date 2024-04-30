@@ -13,6 +13,8 @@ This document outlines the steps taken to refactor the project code to its final
 
 Utilized a bottom-up reverse engineering technique to import only necessary components, functions, data, images, helpers, styles, and dependencies.
 
+I removed all unnecessary images from helpers and image.js 
+
 ## Step 3: Refactoring Process
 
 1. Started with `App.js`.
